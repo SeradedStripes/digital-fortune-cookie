@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cookieGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d03f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e8b923;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a017;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Cookie (left side) - REMOVED -->
+  
+  <!-- Fortune slip peeking out -->
+  <g transform="translate(140, 140)">
+    <rect x="0" y="0" width="80" height="120" rx="5" fill="white" stroke="#333" stroke-width="2" opacity="0.9"/>
+    <text x="40" y="30" font-family="Georgia, serif" font-size="12" fill="#333" text-anchor="middle" font-style="italic">Your fortune</text>
+    <text x="40" y="50" font-family="Georgia, serif" font-size="12" fill="#333" text-anchor="middle" font-style="italic">awaits...</text>
+    <!-- Decorative line -->
+    <line x1="10" y1="70" x2="70" y2="70" stroke="#667eea" stroke-width="1.5"/>
+    <circle cx="40" cy="85" r="3" fill="#ffd700"/>
+  </g>
+  <!-- Text (right side) -->
+  <g transform="translate(400, 200)">
+    <!-- Main title -->
+    <text x="0" y="-40" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="white" letter-spacing="2">
+      Digital Fortune
+    </text>
+    <text x="0" y="50" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="white" letter-spacing="2">
+      Cookie
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="100" font-family="Georgia, serif" font-size="24" fill="rgba(255, 255, 255, 0.9)" font-style="italic" letter-spacing="1">
+      Bizarre AI-Powered Advice Daily
+    </text>
+  </g>
+  
+  <!-- Fire emoji accent near streak -->
+  <g transform="translate(1050, 100)">
+    <text font-size="80" fill="#ffd700">🔥</text>
+  </g>
+  
+  <!-- Cookie emoji accent -->
+  <g transform="translate(1050, 280)">
+    <text font-size="80" fill="white">🥠</text>
+  </g>
+</svg>
