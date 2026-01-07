@@ -631,7 +631,7 @@ async fn index() -> HttpResponse {
             fortune.classList.add('loading');
             
             try {
-                const response = await fetch('/api/fortune?extra=' + encodeURIComponent(vibe));
+                const response = await fetch('api/fortune?extra=' + encodeURIComponent(vibe));
                 const data = await response.json();
                 fortune.textContent = data.fortune;
                 fortune.classList.remove('loading');
